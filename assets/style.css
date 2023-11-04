@@ -16,3 +16,22 @@ header nav a {margin: 15px;}
 
 .bannerimg {background-image: url("./website-background.jpeg");}
 
+.module-1 {
+    text-indent: 30%;
+}
+
+.prework {
+    text-indent: 30%;
+}
+
+.project-3 {
+    text-indent: 60%;
+}
+
+.project-4 {
+    text-indent: 30%;
+}
+
+.project-5 {
+    text-indent: 60%;
+}
