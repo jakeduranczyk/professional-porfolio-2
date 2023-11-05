@@ -16,7 +16,7 @@ header nav a {margin: 15px;}
 
 .bannerimg {background-image: url("./website-background.jpeg");}
 
-.module-1 {
+/*.module-1 {
     text-indent: 30%;
 }
 
@@ -34,4 +34,61 @@ header nav a {margin: 15px;}
 
 .project-5 {
     text-indent: 60%;
+}*/
+
+.module-1 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(6, 140, 140);
+    margin: 0 70px 20px 400px;
+}
+
+.prework {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(6, 140, 140);
+    margin: 0 550px 20px 400px;
+}
+
+.project-3 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(6, 140, 140);
+    margin: -160px 70px 20px 890px;
+}
+
+.project-4 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(6, 140, 140);
+    margin: 0 550px 20px 400px;
+}
+
+.project-5 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(6, 140, 140);
+    margin: -160px 70px 20px 890px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
 }
