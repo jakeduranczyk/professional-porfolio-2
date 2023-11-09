@@ -1,94 +1,88 @@
+* {
+    margin:0;
+    padding:0;
+    display:block;
+    font-size: 100%;
+}
+
 header {
-    background-color: gray;
+    background-color: blue;
+    /*padding: 10px;*/
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    height: 100px;
+    justify-content: space-between;  
+}
+
+Header > h1 {
+    background-color: red;
+    width: 25%;
+
+}
+
+header > div{
+    background-color: yellow;
+    width: 25%;
+    display: flex;
     justify-content: space-between;
-    }
-
-nav {margin-right: 20px;}
-
-header nav a {margin: 15px;}
-
-#headername {
-    color: white;
-} 
-
-.bannerimg {background-image: url("./website-background.jpeg");}
-
-/*.module-1 {
-    text-indent: 30%;
+    justify-content: center
 }
 
-.prework {
-    text-indent: 30%;
+h3 {
+    background-color: blueviolet;
+    border: 2px solid red;
+    width: 25%;
 }
 
-.project-3 {
-    text-indent: 60%;
+main {
+    background-color: beige;
+    height: 100vh;
+    display:flex;
 }
 
-.project-4 {
-    text-indent: 30%;
+aside {
+    background-color: pink;
+    width: 20%;
 }
 
-.project-5 {
-    text-indent: 60%;
-}*/
+section {
+    background-color: green;
+    width: 80%;
+}
+
+nav {
+    margin-top: 10px;
+    background-color: yellow;
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: left;
+    height: 300px;
+}
+
+#portfolio-projects {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    background-color: gray;
+    width: 45%;
+    margin-top: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 5px solid black
+}
 
 .module-1 {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(6, 140, 140);
-    margin: 0 70px 20px 400px;
+    background-image: url(./htmlcssimage.jpeg);
+    border: solid 5px black;
 }
 
 .prework {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(6, 140, 140);
-    margin: 0 550px 20px 400px;
+    background-image: url(./website-background.jpeg);
 }
 
-.project-3 {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(6, 140, 140);
-    margin: -160px 70px 20px 890px;
-}
-
-.project-4 {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(6, 140, 140);
-    margin: 0 550px 20px 400px;
-}
-
-.project-5 {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(6, 140, 140);
-    margin: -160px 70px 20px 890px;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;  
+.tbd {
+    background-image: url(./backgroundpictbd.jpeg);
 }
