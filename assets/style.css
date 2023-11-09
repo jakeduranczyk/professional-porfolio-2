@@ -86,3 +86,11 @@ article {
 .tbd {
     background-image: url(./backgroundpictbd.jpeg);
 }
+
+.selfie {
+    background-image: url(./unnamed.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 20%;
+    background-size: 80%;
+}
